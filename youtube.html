@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="youtube styles/general.css">
+    <link rel="stylesheet" href="youtube styles/header.css">
+    <link rel="stylesheet" href="youtube styles/video.css">
+    <link rel="stylesheet" href="youtube styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="logo/hamburger-menu.svg">
+        <img class="youtube-logo" src="logo/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="logo/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="logo/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="logo/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="logo/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="logo/notifications.svg">
+          <div class="notifications-count">10</div>
+        </div>
+        <img class="current-user-picture" src="logo/profile pic.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="logo/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="logo/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="logo/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="logo/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="logo/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="logo/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/hq720.webp">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="logo/Australian Military Aviation History.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Su-57 - Russia's 5th Gen Fighter
+              </p>
+              <p class="video-author">
+                Australian Military Aviation History
+              </p>
+              <p class="video-stats">
+                301K views &#183; 1 month ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/patrol v8.webp">
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="logo/Auto Hub.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Nissan Patrol Y62 2016 I Second Facelift Review (Sinhala) I Auto Hub
+              </p>
+              <p class="video-author">
+                Auto Hub
+              </p>
+              <p class="video-stats">
+                27K views &#183; 4 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/you have no time.webp">
+            <div class="video-time">9:13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="logo/Mark Tilbury.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                I'm 57. If you're in your 20's please watch this.
+              </p>
+              <p class="video-author">
+                Mark Tilbury
+              </p>
+              <p class="video-stats">
+                876K views &#183; 8 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/chakithaya.webp">
+            <div class="video-time">3:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="logo/WAYO.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                WAYO (Live) - Chakithaya චකිතය
+
+              </p>
+              <p class="video-author">
+                WAYO
+              </p>
+              <p class="video-stats">
+                3.1M views &#183; 6 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/panigalle.webp">
+            <div class="video-time">10:37</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="logo/Ducati.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Francesco Bagnaia | New Panigale V4 | First Ride
+
+              </p>
+              <p class="video-author">
+                Ducati
+              </p>
+              <p class="video-stats">
+                478K views &#183; 2 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/binary sinhala hex.webp">
+            <div class="video-time">25:38</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="logo/hexcoder logo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                මේ algorithm එක දන්නේ නැත්නම් වැඩක් නෑ - Binary Search Algorithm (Sinhala)
+              </p>
+              <p class="video-author">
+                
+                 HexCoder
+              </p>
+              <p class="video-stats">
+                1.2 views &#183; 2 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/automall rx 7.webp">
+              <div class="video-time">28:30</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/Auto Hub.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    Mazda ɛ̃fini RX-7 Experience from Nipul with Cars (Sinhala)
+                </p>
+                <p class="video-author">
+                    Nipul with Cars
+                </p>
+                <p class="video-stats">
+                  5K views &#183; 4 days ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/nighthawk.webp">
+              <div class="video-time">9:07</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/Yarnhub.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    How a Nighthawk Was Shot Down
+                </p>
+                <p class="video-author">
+                    Yarnhub
+
+                </p>
+                <p class="video-stats">
+                  546K views &#183; 6 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/BA v.webp">
+              <div class="video-time">37:11</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/BA v logo.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    ඔයත් මේ වෙලාවේ වාහනයක් ගන්නද ඉන්නේ? එහෙනම් මේ කතාව අනිවාරෙන් අහලා ඉන්න
+                </p>
+                <p class="video-author">
+                   
+                   Business Advisor 
+
+                </p>
+                <p class="video-stats">
+                  86K views &#183; 2 days ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/pagani.webp">
+              <div class="video-time">15:08</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/pagani v logo.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    A Hypercar Like No Other! The All-New Pagani Utopia! | Cinematic 4K Video
+                </p>
+                <p class="video-author">
+                    Hollmann International
+
+                </p>
+                <p class="video-stats">
+                  110K views &#183; 2 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/daysofdilshan311.webp">
+              <div class="video-time">8:45</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="logo/days of dilshan.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    Day 311 : මනියගෙ වීරක්‍රියා
+                </p>
+                <p class="video-author">
+                  
+                  
+                    Days of Dilshan
+
+
+                </p>
+                <p class="video-stats">
+                  101K views &#183; 4 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/mustang.webp">
+              <div class="video-time">11:30</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/autotopnl.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    FORD MUSTANG DARK HORSE V8 EU // REVIEW on AUTOBAHN
+                </p>
+                <p class="video-author">
+                  
+                    AutoTopNL
+
+                </p>
+                <p class="video-stats">
+                  104K views &#183; 1 month ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/time man techtrack.webp">
+              <div class="video-time">15:45</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/techtrack.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    Time Management වලට ලෝකයේ හොඳම ක්‍රමය
+                </p>
+                <p class="video-author">
+                  
+                  TechTrack
+                  
+                </p>
+                <p class="video-stats">
+                  99K views &#183; 8 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/br clip.jpg">
+              <div class="video-time">3:02</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/br logo.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    The Death Of Gustavo Fring | Face Off | Breaking Bad
+                </p>
+                <p class="video-author">
+                  
+                    Breaking Bad & Better Call Saul
+
+                </p>
+                <p class="video-stats">
+                  24M views &#183;  5 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/gladiator.webp">
+              <div class="video-time">4:13</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/allaction logo.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    Defeating the Undefeated Gladiator | Gladiator (2000) | All Action
+                </p>
+                <p class="video-author">
+                  
+                    All Action
+
+                </p>
+                <p class="video-stats">
+                  48M views &#183;  3 years ago 
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/lambo huracan.webp">
+              <div class="video-time">27:44</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/automall.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    Lamborghini Huracan Evo Review by Nipul with Cars (Sinhala)
+                </p>
+                <p class="video-author">
+                  
+                    Nipul with Cars
+                </p>
+                <p class="video-stats">
+                  96K views &#183;   1 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/sniper img.webp">
+              <div class="video-time">5:07</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/grand thumb logo.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    Can You SILENCE A 50 CAL? Is It Effective?
+                </p>
+                <p class="video-author">
+                    Garand Thumb
+
+                </p>
+                <p class="video-stats">
+                  2.8M views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/$1500000.webp">
+              <div class="video-time">17:35</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/channels4_profile.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  What $150,000,000 Buys You on Billionaire's Row in NYC
+                </p>
+                <p class="video-author">
+                  Erik Van Conover
+                </p>
+                <p class="video-stats">
+                  255K views &#183; 4 days ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/malli.webp">
+              <div class="video-time">3:41</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/fill-t.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    Malli
+                </p>
+                <p class="video-author">
+                  
+                    Fill-T
+
+                </p>
+                <p class="video-stats">
+                  630K views &#183; 3 years ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="images/bugati v.webp">
+              <div class="video-time">10:23</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="logo/bugatti logo.jpg">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                    The BUGATTI TOURBILLON: an automotive icon ‘Pour l’éternité’
+                </p>
+                <p class="video-author">
+                    
+
+                    Bugatti
+
+
+                </p>
+                <p class="video-stats">
+                    816K views &#183; 4 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+      </section>
+    </main>
+  </body>
+</html>
